@@ -1,0 +1,7 @@
+连续赋值:
+module continuous1(add1,add2,sum);
+input add1,add2;
+output sum;
+assign sum=add1+add2;
+endmodule
+连续赋值语句中被赋值变量为wire型，输出变量默认为wire型，可以不用重复定义
